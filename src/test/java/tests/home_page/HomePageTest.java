@@ -25,4 +25,14 @@ public class HomePageTest extends TestBase {
             e.printStackTrace();
         }
     }
+    @Test
+    public void test2() {
+        thisIsStaticMethod();
+        System.out.println("This is second test");
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
